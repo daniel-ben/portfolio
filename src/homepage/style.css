@@ -1,0 +1,38 @@
+/* Header */
+.header {
+    width: 100vw;
+    height: 4rem;
+    padding: 2rem 4rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.header__nav-item:hover {
+    text-decoration: underline;
+}
+
+
+/* Home */
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    padding: 4rem;
+    height: 100vh;
+}
+
+.home__big-heading {
+    font-size: 3rem;
+}
+
+.home__description {
+    max-width: 400px;
+}

@@ -1,25 +1,25 @@
 import React from 'react';
-import './App.css';
+import './style.css';
 
-function App() {
+function Homepage() {
   return (
     <div className="App">
-      <header>
-        <ul>
-          <li>Home</li>
-          <li>Work</li>
-          <li>About</li>
-          <li>Contact</li>
+      <header className='header'>
+        <ul className='header__nav'>
+          <li className='header__nav-item'>Home</li>
+          <li className='header__nav-item'>Work</li>
+          <li className='header__nav-item'>About</li>
+          <li className='header__nav-item'>Contact</li>
         </ul>
       </header>
 
       <main>
-        <section>
-          <h3>Hi, my name is</h3>
-          <h1>Daniel Ben</h1>
-          <h2>I'm a front-end dev</h2>
+        <section className='home'>
+          <h3 className='home__upper-text'>Hi, my name is</h3>
+          <h1 className='home__big-heading home__name'>Daniel Ben</h1>
+          <h2 className='home__big-heading home__intro'>I'm a front-end dev</h2>
 
-          <p>I'm a curious developer from Brazil currently pursuing a degree in Information Systems and studying React. I'm yet to get my first job, so if you want to give me a chance, contact me.</p>
+          <p className='home__description'>I'm a curious developer from Brazil currently pursuing a degree in Information Systems and studying React. I'm yet to get my first job, so if you want to give me a chance, contact me.</p>
         </section>
 
         <section>
@@ -64,4 +64,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
