@@ -14,7 +14,7 @@ function Homepage() {
       </header>
 
       <main>
-        <section className='home'>
+        <section className='page home'>
           <h3 className='home__upper-text'>Hi, my name is</h3>
           <h1 className='home__big-heading home__name'>Daniel Ben</h1>
           <h2 className='home__big-heading home__intro'>I'm a front-end dev</h2>
@@ -22,41 +22,40 @@ function Homepage() {
           <p className='home__description'>I'm a curious developer from Brazil currently pursuing a degree in Information Systems and studying React. I'm yet to get my first job, so if you want to give me a chance, contact me.</p>
         </section>
 
-        <section>
-         <h2>Work</h2>
+        <section className='page work'>
+         <h2 className='section-title'>Work</h2>
         </section>
 
-        <section>
-          <h2>About</h2>
+        <section className='page about'>
+          <h2 className='section-title'>About</h2>
 
-          <p>Hi, I'm Daniel, a developer in training and also a biologist from Brazil. I've recently decided to follow my passion for tech and started a graduation in Information Systems. I started learning programming with Front-end by myself, but I'm also learning other areas at University.</p>
-          <p>I speak Portuguese and English fluently and I've been studying the following technologies:</p>
+          <p className='about__text'>Hi, I'm Daniel, a developer in training and also a biologist from Brazil. I've recently decided to follow my passion for tech and started a graduation in Information Systems. I started learning programming with Front-end by myself, but I'm also learning other areas at University.</p>
+          <p className='about__text'>I speak Portuguese and English fluently and I've been studying the following technologies:</p>
 
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>React (basic)</li>
-            <li>Python (basic)</li>
-            <li>C++ (basic)</li>
+          <ul className='about__list'>
+            <li className='about__list-item'>HTML</li>
+            <li className='about__list-item'>CSS</li>
+            <li className='about__list-item'>Javascript</li>
+            <li className='about__list-item'>Typescript</li>
+            <li className='about__list-item'>React (basic)</li>
+            <li className='about__list-item'>Python (basic)</li>
+            <li className='about__list-item'>C++ (basic)</li>
           </ul>
         </section>
 
-        <section>
-          <h2>Contact</h2>
+        <section className='page contact'>
+          <h2 className='section-title'>Contact</h2>
 
-          <p>Wanna say hello? Just send me a message</p>
-          <form>
-            <input type='text' placeholder='Your name (required)' required />
-            <input type='email' placeholder='Your email (required)' required />
-            <textarea placeholder='Say hi' required />
-
+          <p className='contact__message'>Wanna say hello? Just send me a message</p>
+          <form className='contact__form'>
+            <input className='contact__input' type='text' placeholder='Your name (required)' required />
+            <input className='contact__input' type='email' placeholder='Your email (required)' required />
+            <textarea rows={5} className='contact__input' placeholder='Say hi' required />
           </form>
 
-          <p>Wanna buy me a coffe, or buy my cats some cat sachet?</p>
-          <span>Buy me a coffe</span>
-          <span>Pix</span>
+          <p className='contact__message'>Wanna buy me a coffe, or buy my cats some cat sachet?</p>
+          <span className='contact__pay-method'>Buy me a coffe</span>
+          <span className='contact__pay-method'>Pix</span>
         </section>
       </main>
 
