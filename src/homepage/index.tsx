@@ -5,6 +5,7 @@ function Homepage() {
   return (
     <div className="App">
       <header className='header'>
+        <span className='header__name'>Daniel Ben</span>
         <ul className='header__nav'>
           <li className='header__nav-item'>Home</li>
           <li className='header__nav-item'>Work</li>
