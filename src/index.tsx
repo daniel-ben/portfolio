@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Homepage from './homepage';
+import './main.css';
+import Header from "./components/header"
+import Homepage from './pages/homepage';
+import Work from './pages/work'
+import About from './pages/about';
+import Contact from './pages/contact/indext';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -9,7 +13,11 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <Header />
     <Homepage />
+    <Work />
+    <About />
+    <Contact />
   </React.StrictMode>
 );
 

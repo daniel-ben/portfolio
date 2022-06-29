@@ -1,0 +1,22 @@
+/* Contact */
+.contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: rgb(24, 22, 22);
+    color: var(--text-color);
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact__input {
+    padding: 0.8rem;
+    background-color: rgb(214, 209, 209);
+    border-radius: 0.8rem;
+    border: none;
+}

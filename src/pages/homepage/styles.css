@@ -1,0 +1,27 @@
+/* Home */
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    /* 4 + header */
+    padding: 8rem 4rem; 
+    height: 100vh;
+	background-color: rgb(24, 30, 65);
+    color: var(--text-color);
+}
+
+.home__big-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.home__name {
+    color: var(--highlighted-color);
+}
+
+.home__description {
+    max-width: 600px;
+    line-height: 1.5rem;
+}

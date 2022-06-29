@@ -1,0 +1,23 @@
+/* Header */
+.header {
+    height: 4rem;
+    width: 100%;
+    padding: 2rem 4rem;
+    position: fixed;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header__nav {
+    display: flex;
+    gap: 3rem;
+}
+
+.header__nav-item:hover {
+    text-decoration: underline;
+}
