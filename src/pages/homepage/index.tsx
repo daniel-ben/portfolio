@@ -5,8 +5,8 @@ function Homepage() {
   return (
     <>
       <main>
-        <section className='page home'>
-          <h3 className='home__upper-text'>Hi, my name is</h3>
+        <section className='page home' id='home'>
+          <h3 className='home__upper-text'>Hey there, I'm</h3>
           <h1 className='home__big-heading home__name'>Daniel Ben</h1>
           <h2 className='home__big-heading home__intro'>I'm a front-end dev</h2>
 

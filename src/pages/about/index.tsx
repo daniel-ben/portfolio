@@ -2,7 +2,7 @@ import './styles.css';
 
 function About() {
     return (
-        <section className='page about'>
+        <section className='page about' id='about'>
           <h2 className='section-title'>About</h2>
 
           <p className='about__text'>Hi, I'm Daniel, a developer in training and also a biologist from Brazil. I've recently decided to follow my passion for tech and started a graduation in Information Systems. I started learning programming with Front-end by myself, but I'm also learning other areas at University.</p>

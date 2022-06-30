@@ -7,7 +7,7 @@
     /* 4 + header */
     padding: 8rem 4rem; 
     height: 100vh;
-	background-color: rgb(24, 30, 65);
+	background-color: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -18,7 +18,7 @@
 }
 
 .home__name {
-    color: var(--highlighted-color);
+    color: var(--text-color-highlighted);
 }
 
 .home__description {

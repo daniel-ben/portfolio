@@ -2,7 +2,7 @@
 .header {
     height: 4rem;
     width: 100%;
-    padding: 2rem 4rem;
+    padding: 0 4rem;
     position: fixed;
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -15,9 +15,31 @@
 
 .header__nav {
     display: flex;
-    gap: 3rem;
+    align-items: center;
+    height: 100%;
+}
+
+.header__nav-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
 }
 
 .header__nav-item:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid var(--highlighted-color);
+}
+
+.current-page {
+    border-bottom: 3px solid var(--highlighted-color);
+    font-weight: bolder;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.header a:active {
+    transition: 1s;
 }
