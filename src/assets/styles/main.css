@@ -1,0 +1,27 @@
+:root {
+	--bg-color: #181616;
+    --text-color: #afcfd8;
+	--text-color-highlighted: #e1ecf5;
+    --highlighted-color: #f09a38;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html{scroll-behavior:smooth}
+
+body {
+	width: 100vw;
+	background-color: var(--bg-color);
+}
+
+.page {
+	padding: 4rem;
+	height: calc(100vh - 60px);
+}
+
+.section-title {
+	font-size: 2rem;
+	padding: 1.5rem 0;
+}

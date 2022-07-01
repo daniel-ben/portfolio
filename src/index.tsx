@@ -1,27 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './main.css';
-import Header from "./components/header"
-import Homepage from './pages/homepage';
-import Work from './pages/work'
-import About from './pages/about';
-import Contact from './pages/contact/indext';
-import reportWebVitals from './reportWebVitals';
+import App from './App';
+import './assets/styles/main.css';
+import './assets/styles/reset.css';
+
+import handleScroll from './utils/handleScroll';
+// import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Header />
-    <Homepage />
-    <Work />
-    <About />
-    <Contact />
+    <App />
   </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// reportWebVitals();
+
+handleScroll();

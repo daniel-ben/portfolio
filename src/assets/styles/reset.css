@@ -2,22 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-:root {
-    --bg-color: #181616;
-    --text-color: #afcfd8;
-	--text-color-highlighted: #e1ecf5;
-    --highlighted-color: #f09a38;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-html{scroll-behavior:smooth}
-
-body {
-	width: 100vw;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,13 +47,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-.page {
-	padding: 4rem;
-}
-
-.section-title {
-	font-size: 2rem;
-	padding: 1.5rem 0;
 }
