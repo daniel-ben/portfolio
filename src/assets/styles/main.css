@@ -18,7 +18,7 @@ body {
 
 .page {
 	padding: 4rem;
-	height: calc(100vh - 60px);
+	height: 100vh;
 }
 
 .section-title {

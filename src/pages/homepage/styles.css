@@ -4,9 +4,6 @@
     flex-direction: column;
     gap: 1.5rem;
 
-    /* 4 + header */
-    padding: 8rem 4rem; 
-    height: 100vh;
 	background-color: var(--bg-color);
     color: var(--text-color);
 }
@@ -15,6 +12,10 @@
     font-size: 3rem;
     font-weight: bold;
     text-transform: capitalize;
+}
+
+.home__upper-text {
+    margin-top: 60px;
 }
 
 .home__name {
